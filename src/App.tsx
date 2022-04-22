@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import * as React from 'react'
 import './App.css';
+import { Navbar } from './components/Navbar';
+import { Pagination } from '@mui/material';
+import { textAlign } from '@mui/system';
+import Pagin from './components/Pagin';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Pagin />
     </div>
   );
 }
